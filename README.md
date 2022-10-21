@@ -12,10 +12,10 @@ Tesseract_OCRのインストール
 ・「sudo apt update」</br>
 ・「sudo apt -y install tesseract-ocr tesseract-ocr-jpn libtesseract-dev libleptonica-dev tesseract-ocr-script-jpan tesseract-ocr-script-jpan-vert」</br>
 <h4>Windowsで実行される方は、こちらの記事を参照してください。</h4>
-<a href= "https://gammasoft.jp/blog/tesseract-ocr-install-on-windows/">Tesseract OCR をWindowsにインストールする方法</a>
+<a href= "https://gammasoft.jp/blog/tesseract-ocr-install-on-windows/">Tesseract OCR をWindowsにインストールする方法</a</br>
 ※tesseractのincludeパスは、ご自身の環境に合わせて変更していください。
 <h2>実行方法</h2>
-・g++などで、main.cppをコンパイルしてください。
+・g++などで、main.cppをコンパイルしてください。</br>
 ・「./ocr」</br>
 上記コマンドをターミナル上で打てば、実行できます。</br>
 ※C/C++の実行環境が必要です。
