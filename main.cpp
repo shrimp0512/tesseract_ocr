@@ -42,10 +42,10 @@ int main()
     input.outfile();
     const char* input_image = input.file.c_str();
     const char* output_base = input.filename.c_str();
-    const char* datapath = "/usr/share/tesseract-ocr/4.00/tessdata";
+    //const char* datapath = "/usr/share/tesseract-ocr/4.00/tessdata";
     int timeout_ms = 5000;
     const char* retry_config = nullptr;
-    bool textonly = false;
+    //bool textonly = false;
     //int jpg_quality = 92;
 
     tesseract::TessBaseAPI *api = new tesseract::TessBaseAPI();
